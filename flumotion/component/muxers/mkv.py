@@ -31,5 +31,5 @@ class Mkv(feedcomponent.MuxerComponent):
     checkTimestamp = True
 
     def get_muxer_string(self, properties):
-        muxer = 'matroskamux name=muxer'
+        muxer = 'matroskamux name=muxer is-live=true'
         return muxer

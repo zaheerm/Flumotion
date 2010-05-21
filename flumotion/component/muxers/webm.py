@@ -31,5 +31,5 @@ class WebM(feedcomponent.MuxerComponent):
     checkTimestamp = True
 
     def get_muxer_string(self, properties):
-        muxer = 'matroskamux doctype=1 name=muxer'
+        muxer = 'webmmux name=muxer is-live=true'
         return muxer
