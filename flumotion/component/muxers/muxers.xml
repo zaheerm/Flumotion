@@ -44,17 +44,6 @@
       </wizard>
     </component>
 
-    <component type="mkv-muxer" base="flumotion/component/muxers"
-               _description="Muxes encoded feeds into an Mkv feed.">
-      <source location="flumotion.component.muxers.mkv"/>
-      <feeder name="default"/>
-      <eater name="default" multiple="yes"/>
-      <entries>
-        <entry type="component" location="mkv.py"
-               function="Mkv"/>
-      </entries>
-
-    </component>
     <component type="webm-muxer" base="flumotion/component/muxers"
                _description="Muxes encoded feeds into an WebM feed.">
       <source location="flumotion.component.muxers.webm"/>

@@ -35,4 +35,4 @@ class MultipartWizardPlugin(base.MuxerPlugin):
     requirements = ['multipartmux']
 
 class WebMWizardPlugin(base.MuxerPlugin):
-    requirements = ['matroskamux']
+    requirements = ['webmmux']

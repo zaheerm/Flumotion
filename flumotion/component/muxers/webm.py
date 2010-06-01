@@ -19,8 +19,9 @@
 
 # Headers in this file shall remain intact.
 
+from flumotion.common import gstreamer, messages
 from flumotion.common.i18n import N_, gettexter
-from flumotion.component import feedcomponent, gstreamer, messages
+from flumotion.component import feedcomponent
 
 __version__ = "$Rev$"
 T_ = gettexter()

@@ -78,7 +78,6 @@ class VP8Step(VideoEncoderStep):
     gladeFile = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                               'wizard.glade')
     componentType = 'vp8'
-    icon = 'xiphfish.png'
     docSection = 'help-configuration-assistant-encoder-vp8'
     docAnchor = ''
     docVersion = 'local'
